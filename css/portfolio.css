@@ -1,0 +1,225 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Noto Sans JP";
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+
+#header {
+    display: flex;
+    font-size: 21px;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 4px rgb(223, 223, 223);
+    text-align: left;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
+.color {
+    width: auto;
+    height: auto;
+    color: rgb(72, 173, 175);
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    padding: 15px;
+}
+
+li {
+    padding: 5px;
+}
+
+li a span {
+    color: #00abae;
+}
+
+#profile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    margin-top: calc(100px + 92px);
+    text-align: center;
+    line-height: 2rem;
+}
+
+.moji {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.title span {
+    color: #00abae;
+}
+
+.my-icon {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #eef;
+}
+
+.name {
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.text {
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    line-height: normal;
+}
+
+.text .vs {
+    color: #00abae;
+    margin-bottom: 20px;
+}
+
+img.cat {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+img.twitter {
+    border-radius: 50%;
+    width: 80px;
+}
+
+#work {
+    max-width: 80%;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#work ul {
+    display: flex;
+    justify-content: center;
+}
+
+#work img {
+    height: 350px;
+    padding: 10px;
+}
+
+#work li {
+    margin: 0 10px;
+    line-height: 2.5em;
+    text-align: left;
+}
+
+#work li img {
+    border: 1px solid rgb(207, 207, 207);
+}
+
+
+#work .work h3 {
+    font-size: 1.5rem;
+}
+
+#work a {
+    background-color: rgb(231, 231, 231);
+    padding: 0 15px;
+}
+
+#work p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:1020px) {
+    #work {
+        max-width: none;
+    }
+}
+
+footer {
+    font-size: 1rem;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    #header {
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    #profile {
+        margin: 0 auto;
+        margin-top: calc( 50px + 92px );
+        line-height: 1rem;
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .moji {
+        margin-bottom: 50px;
+    }
+
+    .text {
+        padding: 10px;
+    }
+
+    #work {
+        max-width: 100%;
+    }
+
+    #work ul {
+        flex-direction: column;
+    }
+
+    #work li {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #work img {
+        width: 100%;
+        height: auto;
+    }
+
+    #work li {
+        text-align: center;
+    }
+
+
+}
